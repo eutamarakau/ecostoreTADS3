@@ -114,6 +114,10 @@
                                         <i class='bi bi-gear me-1'></i>
                                         Editar Produto
                                     </a>
+                                    <a href='excluirProduto.php?idProduto=$idProduto' class='btn btn-danger btn-outline-dark btn-lg mt-3'>
+                                        <i class='bi bi-trash'></i>
+                                        Deletar Produto
+                                    </a>
                                 ";
                             }
                             else{
